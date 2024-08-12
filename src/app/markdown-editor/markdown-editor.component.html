@@ -1,0 +1,10 @@
+<div class="toolbar">
+    <button (click)="togglePreview()">Toggle Preview</button>
+    <!-- Adicione mais botões conforme necessário -->
+  </div>
+  
+  <div class="container">
+    <textarea [(ngModel)]="markdownText" placeholder="Digite seu Markdown aqui..."></textarea>
+    <div [innerHTML]="htmlContent" *ngIf="showPreview"></div>
+  </div>
+  

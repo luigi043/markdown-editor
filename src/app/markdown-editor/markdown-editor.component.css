@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    height: 400px;
+  }
+  
+  textarea {
+    width: 50%;
+    height: 100%;
+  }
+  
+  div[innerHTML] {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .toolbar {
+    margin-bottom: 10px;
+  }
+  
